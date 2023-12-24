@@ -3,6 +3,7 @@ import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { Counter } from "@repo/ui/counter";
 import { setupCounter } from "@repo/ui/setup-counter";
+import { greet } from "@repo/greet/greet";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -15,6 +16,9 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     ${Header({ title: "Web" })}
     <div class="card">
       ${Counter()}
+    </div>
+    <div class="card">
+      ${greet('Worrrld')}
     </div>
   </div>
 `;
