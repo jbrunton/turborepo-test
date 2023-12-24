@@ -8,7 +8,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "lint": "eslint \"**/*.ts\""
+    "lint": "eslint \"**/*.ts\"",
+    "clean": "rm -rf node_modules"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

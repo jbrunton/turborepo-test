@@ -11,7 +11,8 @@
   "scripts": {
     "lint": "eslint \"**/*.ts\"",
     "build": "tsup index.ts --format cjs,esm --dts",
-    "dev": "pnpm run build -- --watch"
+    "dev": "pnpm run build -- --watch",
+    "clean": "rm -rf dist && rm -rf node_modules"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
