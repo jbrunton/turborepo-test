@@ -10,8 +10,8 @@
     "lint": "eslint \"src/**/*.ts\""
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
-    "@repo/greet": "workspace:*"
+    "@jbrunton/turborepo-test-ui": "workspace:*",
+    "@jbrunton/turborepo-test-greet": "workspace:*"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",

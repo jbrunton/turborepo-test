@@ -1,9 +1,9 @@
-import { Header } from "@repo/ui/header";
+import { Header } from "@jbrunton/turborepo-test-ui/header";
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
-import { Counter } from "@repo/ui/counter";
-import { setupCounter } from "@repo/ui/setup-counter";
-import { greet } from "@repo/greet/greet";
+import { Counter } from "@jbrunton/turborepo-test-ui/counter";
+import { setupCounter } from "@jbrunton/turborepo-test-ui/setup-counter";
+import { greet } from "@jbrunton/turborepo-test-greet/greet";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>

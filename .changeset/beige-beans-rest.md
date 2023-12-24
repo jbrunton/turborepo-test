@@ -1,5 +1,5 @@
 ---
-"@repo/greet": major
+"@jbrunton/turborepo-test-greet": major
 ---
 
 Initial release

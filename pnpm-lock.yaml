@@ -22,7 +22,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@repo/ui':
+      '@jbrunton/turborepo-test-ui':
         specifier: workspace:*
         version: link:../../packages/ui
     devDependencies:
@@ -44,10 +44,10 @@ importers:
 
   apps/web:
     dependencies:
-      '@repo/greet':
+      '@jbrunton/turborepo-test-greet':
         specifier: workspace:*
         version: link:../../packages/greet
-      '@repo/ui':
+      '@jbrunton/turborepo-test-ui':
         specifier: workspace:*
         version: link:../../packages/ui
     devDependencies:
