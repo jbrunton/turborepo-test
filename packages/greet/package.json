@@ -10,7 +10,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"**/*.ts\"",
-    "build": "tsup index.ts --format cjs,esm --dts"
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "dev": "pnpm run build -- --watch"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
