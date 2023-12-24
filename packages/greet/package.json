@@ -5,7 +5,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
-    "./greet": "./src/greet.ts"
+    ".": "./index.ts"
   },
   "license": "MIT",
   "scripts": {
@@ -15,7 +15,10 @@
     "clean": "rm -rf dist && rm -rf node_modules"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "exports": {
+      ".": "./dist/index.js"
+    }
   },
   "repository": "https://github.com/jbrunton/turborepo-test.git",
   "devDependencies": {

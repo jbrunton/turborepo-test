@@ -3,7 +3,7 @@ import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { Counter } from "@jbrunton/turborepo-test-ui/counter";
 import { setupCounter } from "@jbrunton/turborepo-test-ui/setup-counter";
-import { greet } from "@jbrunton/turborepo-test-greet/greet";
+import { greet } from "@jbrunton/turborepo-test-greet";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
