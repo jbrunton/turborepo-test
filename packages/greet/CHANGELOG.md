@@ -1,5 +1,11 @@
 # @jbrunton/turborepo-test-greet
 
+## 1.1.1
+
+### Patch Changes
+
+- 4f6f357: bump turborepo-test-greet
+
 ## 1.1.0
 
 ### Minor Changes
